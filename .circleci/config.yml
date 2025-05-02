@@ -1,0 +1,11 @@
+version: 2.1
+
+orbs:
+  gh-pages: circleci/gh-pages@1.0.0
+
+workflows:
+  deploy:
+    jobs:
+      - gh-pages/deploy:
+          branch: main
+          build_dir: .
