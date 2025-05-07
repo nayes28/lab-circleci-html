@@ -1,4 +1,4 @@
 function saludar() {
-    alert("¡Hola! Tu sitio fue desplegado con CircleCI");
+    alert("hola compañeros, porfavor funciona :( ");
   }
   
